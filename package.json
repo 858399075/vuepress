@@ -1,16 +1,13 @@
 {
-  "name": "blog-heye",
+  "name": "vuepress-theme-reco-demo",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "author": "reco_luan",
   "scripts": {
-     "docs:dev": "vuepress dev docs",
-     "docs:build": "vuepress build docs"
+    "dev": "vuepress dev . --open --host \"localhost\"",
+    "build": "vuepress build ."
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "devDependencies": {
-    "vuepress": "^1.0.2"
+    "vuepress": "1.8.2",
+    "vuepress-theme-reco": "1.6.14"
   }
 }
