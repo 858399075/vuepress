@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: 星月前端博客
-tagline: A simple and beautiful vuepress blog theme.
+tagline: 山顶不是终点，另一座山也不是。
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
@@ -14,7 +14,7 @@ tagline: A simple and beautiful vuepress blog theme.
 bgImageStyle: {
   height: '450px'
 }
-isShowTitleInHome: false
+isShowTitleInHome: true
 actionText: Guide
 actionLink: /views/other/guide
 features:

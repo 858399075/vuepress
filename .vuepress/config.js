@@ -1,5 +1,5 @@
 module.exports = {
-  title: "星月前端博客",
+  title: "星月的博客日记",
   description: '山顶不是终点，另一座山也不是。',
   dest: 'public',
   head: [
@@ -9,29 +9,28 @@ module.exports = {
   theme: 'reco',
   themeConfig: {
     nav: [
-      { text: '主页', link: '/', icon: 'reco-home' },
-      // { text: '时间线', link: '/timeline/', icon: 'reco-date' },
-      // { text: '文档', 
-      //   icon: 'reco-message',
-      //   items: [
-      //     { text: 'vuepress-reco', link: '/docs/theme-reco/' }
-      //   ]
-      // },
+      { text: '首页', link: '/', icon: 'reco-home' },
+      { text: '时间线', link: '/timeline/', icon: 'reco-date' },
+      { text: '随记', 
+        icon: 'reco-message',
+        items: [
+          { text: '生活日记', link: '/docs/theme-reco/' }
+        ]
+      },
       { text: '联系方式', 
         icon: 'reco-message',
         items: [
-          { text: 'GitHub', link: 'https://github.com/recoluan', icon: 'reco-github' },
-          { text: '76120220', link: '#', icon: '' }
-
+          { text: 'GitHub', link: 'https://github.com/858399075', icon: 'reco-github' },
+          { text: 'Gitee', link: 'https://gitee.com/xingyueqianduan', icon: 'reco-github' },
+          { text: 'QQ:76120220', link: 'https://xingyue.vercel.app/', icon: '' },
+          { text: 'WX:15237156071', link: 'https://xingyue.vercel.app/', icon: '' }
         ]
       }
     ],
     sidebar: {
       '/docs/theme-reco/': [
         '',
-        'theme',
         'plugin',
-        'api'
       ]
     },  
     type: 'blog',
