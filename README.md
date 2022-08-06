@@ -1,6 +1,6 @@
 ---
 home: true
-heroText: vuepress-theme-reco
+heroText: 星月前端博客
 tagline: A simple and beautiful vuepress blog theme.
 # heroImage: /hero.png
 # heroImageStyle: {
