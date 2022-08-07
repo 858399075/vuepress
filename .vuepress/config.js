@@ -64,7 +64,7 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     // 自动形成侧边导航
-    // sidebar: 'auto',
+    sidebar: 'auto',
     // 最后更新时间
     lastUpdated: 'Last Updated',
     // 作者
@@ -72,7 +72,7 @@ module.exports = {
     // 作者头像
     authorAvatar: '/avatar.png',
     // 备案号
-    record: 'xxxx',
+    record: '云.1214',
     // 项目开始时间
     startYear: '2022'
     /**
@@ -96,5 +96,30 @@ module.exports = {
   },
   markdown: {
     lineNumbers: true
-  }
+  },
+  plugins: [
+    // 页面滚动时自动激活侧边栏链接的插件
+    [
+      "@vuepress/active-header-links",
+      {
+        sidebarLinkSelector: ".sidebar-link",
+        headerAnchorSelector: ".header-anchor",
+      },
+    ],
+    // 一个基于 nprogress (opens new window)的进度条插件。
+    ["@vuepress/nprogress"],
+    // 看板娘
+    [
+      '@vuepress-reco/vuepress-plugin-kan-ban-niang',
+      {
+        theme: ['haru1']
+      }
+    ],
+    // 修改光标效果
+    ['cursor-effects', {
+      size: 2, // size of the particle, default: 2
+      shape: 'star', // ['star' | 'circle'], // shape of the particle, default: 'star'
+      zIndex: 999999999, // z-index property of the canvas, default: 999999999
+    }]
+  ],
 }  

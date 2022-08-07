@@ -7,7 +7,15 @@
     "build": "vuepress build ."
   },
   "devDependencies": {
+    "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
+    "@vuepress/plugin-active-header-links": "^1.9.7",
+    "@vuepress/plugin-nprogress": "^1.9.7",
     "vuepress": "1.8.2",
+    "vuepress-plugin-cursor-effects": "^1.1.4",
     "vuepress-theme-reco": "1.6.14"
+  },
+  "dependencies": {
+    "@vssue/api-github-v3": "^1.4.7",
+    "@vssue/vuepress-plugin-vssue": "^1.4.8"
   }
 }
