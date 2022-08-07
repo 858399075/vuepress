@@ -1,6 +1,6 @@
 module.exports = {
-  title: "星月的博客日记",
-  description: '山顶不是终点，另一座山也不是。',
+  title: "星月前端博客",
+  description: 'The top of the mountain is not the end, nor is the other mountain.',
   dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],

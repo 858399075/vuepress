@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: 星月前端博客
-tagline: 山顶不是终点，另一座山也不是。
+heroText: 星月的博客日记
+tagline: The top of the mountain is not the end, nor is the other mountain.
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
