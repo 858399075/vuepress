@@ -11,12 +11,13 @@ module.exports = {
     nav: [
       { text: '首页', link: '/', icon: 'reco-home' },
       { text: '时间线', link: '/timeline/', icon: 'reco-date' },
-      { text: '随记', 
-        icon: 'reco-message',
-        items: [
-          { text: '生活日记', link: '/docs/theme-reco/' }
-        ]
-      },
+      // { text: '随记', 
+      //   icon: 'reco-message',
+      //   items: [
+      //     { text: '生活日记', link: '/docs/theme-reco/' }
+      //   ]
+      // },
+      { text: '随记', link: '/docs/theme-reco/', icon: 'reco-message' },
       { text: '联系方式', 
         icon: 'reco-message',
         items: [
@@ -30,7 +31,7 @@ module.exports = {
     sidebar: {
       '/docs/theme-reco/': [
         '',
-        'plugin',
+        '1',
       ]
     },  
     type: 'blog',
