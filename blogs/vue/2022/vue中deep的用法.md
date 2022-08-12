@@ -4,7 +4,7 @@ date: 2022-08-07
 tags:
  - vue
 categories:
- - Vue
+ - Vue2
 ---
 
 ## vue项目中/deep/的用法

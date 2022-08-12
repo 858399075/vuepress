@@ -4,7 +4,7 @@ date: 2022-07-19
 tags:
  - vue
 categories:
- - Vue
+ - Vue2
 ---
 
 # vue基础总结

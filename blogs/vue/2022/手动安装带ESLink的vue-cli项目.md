@@ -4,7 +4,7 @@ date: 2022-07-20
 tags:
  - vue
 categories:
- - Vue
+ - Vue2
 ---
 
 # 手动安装带ESLink的vue-cli项目
