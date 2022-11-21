@@ -23,8 +23,8 @@ module.exports = {
         items: [
           { text: 'GitHub', link: 'https://github.com/858399075', icon: 'reco-github' },
           { text: 'Gitee', link: 'https://gitee.com/xingyueqianduan', icon: 'reco-github' },
-          { text: 'QQ:76120220', link: 'https://xingyue.vercel.app/', icon: '' },
-          { text: 'WX:15237156071', link: 'https://xingyue.vercel.app/', icon: '' }
+          { text: 'QQ:76120220', link: 'http://blog.yhxweb.top/', icon: '' },
+          { text: 'WX:15237156071', link: 'http://blog.yhxweb.top/', icon: '' }
         ]
       }
     ],
@@ -73,7 +73,7 @@ module.exports = {
     // 作者头像
     authorAvatar: '/avatar.png',
     // 备案号
-    record: '云.1214',
+    record: '滇ICP备2022006526',
     // 项目开始时间
     startYear: '2022'
     /**
